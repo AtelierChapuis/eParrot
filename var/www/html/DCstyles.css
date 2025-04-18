@@ -1,0 +1,34 @@
+#chart-wrapper {
+	display: inline-block;
+	position: relative;
+	/* width: 50%; */
+	width: 90%;
+	height: 500px;
+}
+
+table.GeneratedTable {
+	/* width: 30%; */
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #4ee4e2;
+	border-style: dashed;
+	color: #000000;
+	column-gap: 100px;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+	border-width: 1px;
+	border-color: #ddd;
+	border-style: solid;
+	padding: 3px;
+	text-align: center;
+}
+
+table.GeneratedTable thead {
+	background-color: #eaebea;
+}
+
+#sensor1 {
+	background-color: #32a852;
+}
