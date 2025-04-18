@@ -3,6 +3,7 @@ An eParrot that senses the temperature and converts to ABV. Display results on i
 
 ## Description:
 asdf
+
 ## Installation:
 From a fresh Raspbian installation:
 1. LAMP Install
@@ -71,3 +72,7 @@ In a consol on the rasp pi, type `crontab -e`, add the following text, change '2
 ```
     */5 * * * * python /home/pi/Raspberry/Temperature/temperature_logger.py 28-041780f40cff
 ```
+
+## Functionality:
+* The temperature and webserver will start automatically when the Raspberry Pi boots (due to cron job).
+* To read the results of the sensor, open a web browser of a device on the same LAN as the raspberry pi. Type the IP address of the pi, and the webpage should appear.
