@@ -4,9 +4,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="refresh" content="3"> <!-- MC: dirty. setup an autoupdate of the chart.js instead of just refreshing the whole webpage-->
-	<meta name="description" content="Chapuis Atelier Sensors">
+	<meta name="description" content="Atelier Chapuis Sensors">
 
-	<title>Chapuis Atelier Sensors Dashboard</title>
+	<title>Atelier Chapuis Sensors Dashboard</title>
 	
 	<link rel="stylesheet" href="DCstyles.css">
 
@@ -82,7 +82,7 @@
 
 <!-- Top of page section-->
 <div>
-	<img src="/images/dc-logo.png" alt="Chapuis Atelier" width="50"> &#169; Chapuis Atelier
+	<img src="/images/dc-logo.png" alt="Atelier Chapuis" width="50"> &#169; Atelier Chapuis
 </div>
 
 <hr align="left", width=90%-->
