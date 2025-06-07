@@ -8,16 +8,16 @@
 
 import os
 import MySQLdb
-#import mariadb
 import sys
 import datetime
-import glob
 import time
-#import cgitb cgitb.enable()
 
-os.system('sudo modprobe w1-gpio')
-os.system('sudo modprobe w1-therm')
 
+os.system('sudo modprobe w1-gpio gpio_pin=4')       # Enable the 1-Wire communication over a GPIO pin. Pin 7 (GPIO4) is the default for Raspberry Pi, and the one used in the Atelier Chapuis distillation sensor.
+os.system('sudo modprobe w1-therm')                 # Enable the 1-Wire Thermometer module in the Linux kernel, to specify that the probe is a Temp probe (DS18B20 in this case).
+
+# Create a dictionary to hold the temperature to ABV conversion table.
+# The table is used to find the closest temperature value match and return the associated ABV value.    
 Temp2AbvTable = {
     100.00: 0.00,
     99.65: 6.64,
