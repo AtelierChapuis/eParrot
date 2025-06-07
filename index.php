@@ -247,7 +247,7 @@
 
 <!--hr align="left", width=50%-->
 <br>
-&#169; Chapuis Atelier 2023
+&#169; Atelier Chapuis
 
 
 <?php
