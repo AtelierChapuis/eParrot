@@ -81,8 +81,11 @@
 <!-- /PHP -->
 
 <!-- Top of page section-->
-<div>
-	<img src="/images/dc-logo.png" alt="Atelier Chapuis" width="50"> &#169; Atelier Chapuis
+<div align="center">
+	<img src="/images/Atelier Chapuis Resistor v2_0 white.jpg" alt="Atelier Chapuis" width="50"> Atelier Chapuis
+	<br>
+	Digital Distillation Sensors Dashboard
+	<p>This dashboard shows the current temperature and %ABV of the distillate, as well as the last 10 readings of the sensors.</p>
 </div>
 
 <hr align="left", width=90%-->
@@ -246,9 +249,6 @@
 </div>
 
 <!--hr align="left", width=50%-->
-<br>
-&#169; Atelier Chapuis
-
 
 <?php
 	// Close the connection to the SQL DB
