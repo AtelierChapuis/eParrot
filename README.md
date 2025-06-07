@@ -1,9 +1,6 @@
 # eParrot
 An eParrot that senses the temperature and converts to ABV. Display results on internal webpage. Raspberry Pi 3.
 
-## Description:
-asdf
-
 ## Installation:
 From a fresh Raspbian installation:
 1. LAMP Install
